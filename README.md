@@ -19,7 +19,7 @@ An input layer that matches the output features of VGG16.
 Two hidden layers with ReLU activations and dropout for regularization.
 An output layer with 102 units corresponding to the flower classes, using log softmax for classification.
 # Building the command line application
-Now after building and training a deep neural network on the flower data set, it's time to convert it into an application that others can use. the application should be a pair of Python scripts that run from the command line. For testing, use the checkpoint you saved in the first part.
+Now after building and training a deep neural network on the flower data set, it's time to convert it into an application that others can use. the application should be a pair of Python scripts that run from the command line. For testing, we used the checkpoint saved in the first part.
 it includes three files:
 1- train.py 
 2-run_utlis 
